@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-package-builder",
+  "version": "1.0.0",
+  "description": "Automates the creation of Node.js packages ready for npm publishing.",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["nodejs", "package", "builder", "npm", "automation"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.0"
+  },
+  "bin": {
+    "nodejs-package-builder": "./bin/index.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/nodejs-package-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/nodejs-package-builder/issues"
+  },
+  "homepage": "https://github.com/yourusername/nodejs-package-builder#readme"
+}
